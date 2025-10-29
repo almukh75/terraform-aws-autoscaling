@@ -2,6 +2,7 @@
 # Launch configuration
 ################################################################################
 
+## test a10
 output "launch_configuration_id" {
   description = "The ID of the launch configuration"
   value       = try(aws_launch_configuration.this[0].id, "")
