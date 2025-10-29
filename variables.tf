@@ -5,7 +5,7 @@
 variable "create_asg" {
   description = "Determines whether to create autoscaling group or not"
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "name" {
