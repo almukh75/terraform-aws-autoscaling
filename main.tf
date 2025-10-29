@@ -1,6 +1,6 @@
 data "aws_default_tags" "current" {}
 
-## test comment
+## test
 locals {
   lc_name              = coalesce(var.lc_name, var.name)
   launch_configuration = var.create_lc ? aws_launch_configuration.this[0].name : var.launch_configuration
